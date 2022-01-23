@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: var(--color-bg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(65, 65, 65, 0.589);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #5889f2b2;
+}
+
+.gradient__bg {
+  background:-moz-radial-gradient(circle at 10% 10%, rgb(59, 0, 83) 0%, rgba(4, 12, 24, 1) 35%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 10% 10%, rgb(59, 0, 83) 0%, rgba(4, 12, 24, 1) 35%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 10% 10%, rgb(59, 0, 83) 0%, rgba(4, 12, 24, 1) 35%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 10% 10%, rgb(59, 0, 83) 0%, rgba(4, 12, 24, 1) 35%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 10% 10%, rgb(59, 0, 83) 0%, rgba(4, 12, 24, 1) 35%);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*! box shadow for skills */
+.shadow__global {
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
+}
+
+.shadow__js {
+  box-shadow: 0 0 20px 0 rgb(255, 251, 0);
+}
+
+.shadow__nodejs {
+  box-shadow: 0 0 20px 0 	rgb(9, 255, 0);
+}
+
+.shadow__react {
+  box-shadow: 0 0 20px 0 rgb(0, 204, 255);
+}
+
+.shadow__github {
+  box-shadow: 0 0 20px 0 #c300ff;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
 }

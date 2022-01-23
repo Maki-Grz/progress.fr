@@ -1,0 +1,90 @@
+.progress__skill {
+    margin: 5px;
+    text-align: center;
+}
+
+
+.progress__skill h1 {
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    letter-spacing: 10px;
+    margin-bottom: 2rem;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.progress__skill-container {
+    background: radial-gradient(ellipse at 50% 50%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 70%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress__skill-container div {
+    background-color: var(--color-footer);
+    margin: 1rem;
+    width: 280px;
+    height: 320px;
+    border-radius: 8px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+
+    border-style: solid;
+}
+
+.progress__skill-container img {
+    margin: 1rem 1rem;
+    height: 60px;
+    width: 60px;
+    transition: .3s linear;
+}
+
+.progress__skill-container img:hover {
+    transform: scale(1.25);
+}
+
+
+.progress__skill-container h4 {
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-weight: 900;
+    margin-left: 1rem;
+    justify-content: flex-start
+}
+
+.progress__skill-container p {
+    font-family: sf-display;
+    margin: 1rem 1rem 0 1rem;
+    line-height: 20px;
+    color: var(--color-text);
+    font-weight: 500;
+    font-size: auto;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .progress__skill-container {
+        background: radial-gradient(ellipse at 50% 50%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 70%);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .progress__skill-container div {
+        width: 700px;
+        height: 370px;
+    }
+
+    .progress__skill-container h4 {
+        font-size: 45px;
+        font-weight: 900;
+    }
+
+    .progress__skill-container p {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

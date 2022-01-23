@@ -1,0 +1,132 @@
+.progress__experience {
+    text-align: center;
+}
+
+
+.progress__experience h1 {
+    text-transform: uppercase;
+    word-spacing: 1rem;
+    letter-spacing: 10px;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.progress__experience-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.progress__experience-container__card {
+    box-shadow: 0 0 20px 5px rgb(0, 0, 0);
+    border-radius: 8px;
+    background-color: var(--color-footer);
+    height: auto;
+    width: 600px;
+}
+
+.progress__experience-container__card-header {
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.progress__experience-container__card p {
+    margin: 1rem;
+
+    font-family: sf-display;
+    font-size: 18px;
+    color: grey;
+}
+
+.progress__experience-container__card-header h2 {
+    font-family: sf-ui-display;
+    font-weight: 900;
+    font-size: 30px;
+    margin-left: 1rem;
+}
+
+.progress__experience-container__card-header-content {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 1;
+    align-items: center;
+}
+
+.progress__experience-container__card-header-content img {
+    height: 40px;
+    width: 40px;
+    margin-right: 0.5rem;
+    transition: linear 3s;
+}
+
+.progress__experience-container__card-header-content h3 {
+    font-family: sf-display;
+    font-weight: 500;
+    font-size: 25px;
+    margin-right: 1rem;
+
+    color: antiquewhite;
+}
+
+.progress__experience-container__card-image {
+    margin: 1.5rem;
+}
+
+.progress__experience-container__card-image img {
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    box-shadow: 0 0 10px 0 #fff;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.progress__experience-container__card-content-footer p:nth-child(1) {
+    display: flex;
+    justify-content: center;
+
+    font-family: sf-display;
+    color: var(--color-text);
+    font-size: 24px;
+}
+
+.progress__experience-container__card-content-footer p:nth-child(2) {
+    justify-content: center;
+
+    font-family: sf-display;
+    color: grey;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1050px) {
+
+    .progress__experience-container__card {
+        width: 800px;
+    }
+    
+    .progress__experience-container__card p {
+        font-size: 25px;
+    }
+    
+    .progress__experience-container__card-header h2 {
+        font-size: 40px;
+    }
+    
+    .progress__experience-container__card-header-content img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .progress__experience-container__card-header-content h3 {
+        font-size: 30px;
+    }
+    
+    .progress__experience-container__card-content-footer p {
+        font-size: 30px;
+    }
+}

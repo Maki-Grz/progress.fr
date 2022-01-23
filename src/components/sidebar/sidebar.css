@@ -1,0 +1,102 @@
+.progress__popup {
+    position: fixed;
+    top: 20%;
+    right: 25px;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.progress__popup-button {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+
+    display: block;
+    padding: 8px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    transition-duration: 0.12s;
+    transform: translateY(-5px) translateX(-5px);
+}
+
+.social {
+    background-color: rgb(251, 255, 0);
+
+    box-shadow: 4px 4px orange, 2px 2px orange, 1px 1px orange;
+    border: 1px solid orange;
+}
+
+.profile {
+    background-color: rgb(0, 255, 136);
+    margin-top: 1rem;
+
+    box-shadow: 4px 4px green, 2px 2px green, 1px 1px green;
+    border: 1px solid green;
+}
+
+.progress__popup-button:active {
+    transform: translateY(-2px) translateX(-2px);
+}
+
+.progress__popup-data {
+    display: flex;
+    flex-direction: row;
+
+    width: 95%;
+}
+
+.progress__popup-data iframe {
+    margin: 1rem;
+    box-shadow: 0 0 30px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.progress__popup-data__mail {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.progress__popup-data__mail img {
+    width: 600px;
+    border-radius: 10px;
+
+    filter: invert(1);
+
+    margin: 1rem;
+    border-radius: 20px;
+}
+
+.progress__popup-data__mail h3 {
+    font-family: sf-display;
+    font-weight: 900;
+    color: gray;
+    font-size: 25px;
+}
+
+.progress__popup-data__container {
+    width: 1080px;
+    height: 700px;
+    border-radius: 12px;
+    background-color: #0b1825c9;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 20px 5px rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 1050px) {
+    .progress__popup-button {
+        width: 100px;
+        height: 100px;
+    }
+
+    .progress__popup-data__container {
+        width: 750px;
+        height: 800px;
+    }
+}

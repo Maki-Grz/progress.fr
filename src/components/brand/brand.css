@@ -1,0 +1,32 @@
+.progress__brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--color-footer);
+    box-shadow: 0 0 40px 5px #c300ff;
+}
+
+
+.progress__brand h1 {
+    font-family: sf-display;
+    text-align: center;
+}
+
+.progress__brand p {
+    color: gray;
+    margin-top: 1rem;
+    font-family: sf-ui-display;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1050px) {
+    .progress__brand h1 {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .progress__brand p {
+        font-size: 26px;
+    }
+}
