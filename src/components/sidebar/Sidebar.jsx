@@ -27,7 +27,7 @@ const ControlledPopup = () => {
 
             <Popup open={open1} closeOnDocumentClick onClose={closeModal1}>
                 <div className="progress__popup-data">
-                    <a className="close" href={undefined} onClick={closeModal1}>
+                    <a className="close" href={() => false} onClick={closeModal1}>
                         &times;
                     </a>
                     <iframe title='Discord' src="https://canary.discord.com/widget?id=686114664731377703&theme=dark" width="350" height="500" allowtransparency="true" frameBorder="0"></iframe>
@@ -38,9 +38,9 @@ const ControlledPopup = () => {
                 </div>
             </Popup>
 
-            <Popup open={open2} href={undefined} closeOnDocumentClick onClose={closeModal2}>
+            <Popup open={open2} closeOnDocumentClick onClose={closeModal2}>
                 <div className="progress__popup-data">
-                    <a className="close" onClick={closeModal2}>
+                    <a className="close" href={() => false} onClick={closeModal2}>
                         &times;
                     </a>
                     <div className='progress__popup-data__container'>
