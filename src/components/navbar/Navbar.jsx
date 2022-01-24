@@ -19,8 +19,8 @@ const Navbar = () => {
             </div>
             <div className="progress__navbar-menu">
                 {toggleMenu
-                    ? <RiCloseLine color="#fff" size={80} onClick={() => setToggleMenu(false)} />
-                    : <RiMenu3Line color="#fff" size={80} onClick={() => setToggleMenu(true)} />
+                    ? <RiCloseLine color="#fff" size={60} onClick={() => setToggleMenu(false)} />
+                    : <RiMenu3Line color="#fff" size={60} onClick={() => setToggleMenu(true)} />
                 }
 
                 {toggleMenu && (
