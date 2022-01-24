@@ -4,6 +4,8 @@ import './experience.css'
 import progress from '../../assets/screen-progress.png'
 import logo from '../../assets/react.svg'
 
+import Preload from '../../core/Preload'
+
 const Experience = () => {
     return (
         <div className='progress__experience section__padding' id='experience'>
@@ -19,7 +21,7 @@ const Experience = () => {
                     </div>
                     <p>J'ai développé et j'administre seul mon site web Progress Rect.</p>
                     <div className='progress__experience-container__card-image'>
-                        <img src={progress} alt="" />
+                        <Preload src={progress} alt="Progress" />
                     </div>
                     <div className='progress__experience-container__card-content-footer'>
                         <p>Créateur & Administrateur</p>

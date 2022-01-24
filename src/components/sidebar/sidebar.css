@@ -25,18 +25,18 @@
 }
 
 .social {
-    background-color: rgb(251, 255, 0);
+    background-color: #00d5ff;
 
-    box-shadow: 4px 4px orange, 2px 2px orange, 1px 1px orange;
-    border: 1px solid orange;
+    box-shadow: 4px 4px #0075ff, 2px 2px #0075ff, 1px 1px #0075ff;
+    border: 1px solid #0075ff;
 }
 
 .profile {
-    background-color: rgb(0, 255, 136);
+    background-color: #de00ff;
     margin-top: 1rem;
 
-    box-shadow: 4px 4px green, 2px 2px green, 1px 1px green;
-    border: 1px solid green;
+    box-shadow: 4px 4px #9a00ff, 2px 2px #9a00ff, 1px 1px #9a00ff;
+    border: 1px solid #9a00ff;
 }
 
 .progress__popup-button:active {

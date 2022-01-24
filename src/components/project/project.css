@@ -46,7 +46,7 @@
     list-style-type: none;
     display: flex;
     flex-shrink: 0;
-    animation: slide 40s linear infinite;
+    animation: slide 120s linear infinite;
     height: 300px;
     width: 4000px;
 }
@@ -88,8 +88,6 @@
 .progress__project-slider li p {
     font-family: sf-ui-display;
     padding-top: 1rem;
-    letter-spacing: 1px;
-    word-spacing: 1px;
     text-size-adjust: 100%;
 }
 
