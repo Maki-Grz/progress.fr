@@ -1,33 +1,41 @@
-import React from 'react'
+import React from 'react';
 import './footer.css'
-import profil from '../../assets/profil.gif'
-import { discord, instagram, linkedin, github } from './imports'
 
-import PreloadImage from '../../core/Preload'
+import logo from '../../assets/progress-remove.png';
+import Preload from '../../core/Preload';
 
 const Footer = () => {
     return (
-        <div className='progress__footer section__padding' id='contact'>
-            <div className='progress__footer-box'>
-                <div className='progress__footer-box-container'>
-                    <div className='progress__footer-box-container-profil'>
-                        <PreloadImage src={profil} alt="Maximilien Grzeczka" />
-                        <h3 className='gradient__text'>Maximilien Grzeczka</h3>
+        <div className='progress__footer section__padding'>
+            <div className='progress__footer-containers'>
+                <Preload src={logo} alt="Progress" />
+                <div className='progress__footer-containers__column'>
+
+                    <div className='progress__footer-containers__column-about'>
+                        <h3 className='gradient__text'>À propos</h3>
+                        <p>Ce site web a comme but de me présenter, de montrer mes talents et de prendre contact avec moi.<br /><br />Je suis ouvert à toute critique concernant le site web, mon objectif est de m'améliorer.</p>
                     </div>
-                    <div className='progress__footer-box-container-social'>
-                        <a href="https://discord.gg/gaBzAVZ" target="_blank" rel="noreferrer"><PreloadImage src={discord} alt="Discord" /></a>
-                        <a href="https://www.instagram.com/maki_grz/" target="_blank" rel="noreferrer"><PreloadImage src={instagram} alt="Instagram" /></a>
-                        <a href="https://www.linkedin.com/in/maximilien-grz-90a72921b/" target="_blank" rel="noreferrer"><PreloadImage src={linkedin} alt="Linkedin" /></a>
-                        <a href="https://www.github.com/maki-grz" target="_blank" rel="noreferrer"><PreloadImage src={github} alt="Github" /></a>
+
+                    <div className='progress__footer-containers__column-sections'>
+                        <h3 className='gradient__text'>Sections</h3>
+                        <p><a href="#home">Accueil</a></p>
+                        <p><a href="#skills">Compétences</a></p>
+                        <p><a href="#projects">Projets</a></p>
+                        <p><a href="#experience">Expériences</a></p>
                     </div>
-                    <div className='line'></div>
-                    <div className='progress__footer-box-container-citation'>
-                    <p>Lycéen de 17 ans, fanatique Apple et souvent d'une mauvaise foi dite "légendaire" je me passione pour le langage JavaScript et souhaite participer à de nombreux projets pour progresser dans le vaste monde du développement.<br /><br />Durant ma scolarité en lycée général et mon apprentissage en autodidacte, je construis ma réputation en travaillant sur des projets d'applications/sites web en JavaScript. <br /><br />En apprentissage constant avec les nouvelles technologies web comme React.</p>
+
+                    <div className='progress__footer-containers__column-contact'>
+                        <h3 className='gradient__text'>Contact</h3>
+                        <p><a href="https://discord.gg/gaBzAVZ" target="_blank" rel="noreferrer">Discord</a></p>
+                        <p><a href="https://www.instagram.com/maki_grz/" target="_blank" rel="noreferrer">Instagram</a></p>
+                        <p><a href="https://www.linkedin.com/in/maximilien-grz-90a72921b/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+                        <p><a href="https://www.github.com/maki-grz" target="_blank" rel="noreferrer">GitHub</a></p>
                     </div>
+
                 </div>
             </div>
         </div>
     )
-}
+};
 
-export default Footer
+export default Footer;

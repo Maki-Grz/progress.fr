@@ -31,14 +31,6 @@
     border: 1px solid #00b7ff;
 }
 
-.profile {
-    background-color: #ff004c;
-    margin-top: 1rem;
-
-    box-shadow: 4px 4px #cf0045, 2px 2px #cf0045, 1px 1px #cf0045;
-    border: 1px solid #cf0045;
-}
-
 .progress__popup-button:active {
     transform: translateY(-2px) translateX(-2px);
 }
@@ -76,7 +68,7 @@
 .progress__popup-data__mail h3 {
     font-family: sf-display;
     font-weight: 900;
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: 25px;
 }
 

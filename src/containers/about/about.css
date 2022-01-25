@@ -1,0 +1,96 @@
+.progress__about {
+    margin: 1rem;
+}
+
+.progress__about-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress__about-box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress__about-box-container-profil {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    padding-bottom: 1rem;
+}
+
+.progress__about-box-container-profil img {
+    border-radius: 100%;
+    box-shadow: 0 0 20px 5px #c300ff;
+    width: 100px;
+    height: 100px;
+}
+
+.progress__about-box-container-profil h3 {
+    font-family: sf-ui-display;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.progress__about-box-container-social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1rem;
+}
+
+.progress__about-box-container-social img {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+
+.line {
+    width: 1000px;
+    height: 10px;
+    border-style: inset none none;
+}
+
+.progress__about-box-container-citation {
+    margin: 2rem;
+}
+
+.progress__about-box-container-citation p {
+    text-align: justify;
+    font-family: sf-ui-display;
+    font-size: 22px;
+    color: rgb(212, 212, 212);
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1050px) {
+    .progress__about-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .progress__about-box-container-citation p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .progress__about-box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .progress__about-box {
+        display: flex;
+        flex-direction: column;
+    }
+}

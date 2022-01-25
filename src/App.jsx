@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css'
 
 import { Navbar, Brand, Project, Skill, Experience, Sidebar } from './components/index'
-import { Header, Space } from './containers/index'
+import { Header, Space, About, Footer } from './containers/index'
 
 const App = () => {
     return (
@@ -10,6 +10,7 @@ const App = () => {
             <div className="gradient__bg">
                 <Navbar />
                 <Header />
+                <About />
             </div>
             <Sidebar />
             <Space /> {/* Espace */}
@@ -18,6 +19,8 @@ const App = () => {
             <Skill />
             <Project />
             <Experience />
+            <Space /> {/* Espace */}
+            <Footer />
         </div>
     )
 }
