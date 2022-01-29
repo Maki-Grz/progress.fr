@@ -13,7 +13,7 @@ const Project = () => {
                     </li>
                     <li>
                         <h4 className='gradient__text'>ENT Scrapper</h4>
-                        <p>Algorithme de récupération de données sur l'ENT Oise avec la librairie Puppeteer en JavaScript. Cet algorithme permet de récupérer les informations des profils des utilisateurs via l'annuaire du site Internet en moins de 50 secondes pour  1 537 résultats.</p>
+                        <p>Algorithme de récupération de données sur l'ENT Oise avec la librairie Puppeteer en JavaScript. Cet algorithme permet de récupérer les informations des profils des utilisateurs via l'annuaire du site Internet (projet à but instructif, aucunes données ne sont sauvegardées).</p>
                     </li>
                     <li>
                         <h4 className='gradient__text'>Sushi Bot</h4>
@@ -35,7 +35,7 @@ const Project = () => {
                     </li>
                     <li>
                         <h4 className='gradient__text'>ENT Scrapper</h4>
-                        <p>Algorithme de récupération de données sur l'ENT Oise avec la librairie Puppeteer en JavaScript. Cet algorithme permet de récupérer les informations des profils des utilisateurs via l'annuaire du site Internet en moins de 50 secondes pour  1 537 résultats.</p>
+                        <p>Algorithme de récupération de données sur l'ENT Oise avec la librairie Puppeteer en JavaScript. Cet algorithme permet de récupérer les informations des profils des utilisateurs via l'annuaire du site Internet (projet à but instructif, aucunes données ne sont sauvegardées).</p>
                     </li>
                     <li>
                         <h4 className='gradient__text'>Sushi Bot</h4>

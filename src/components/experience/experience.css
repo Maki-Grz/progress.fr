@@ -15,6 +15,8 @@
 .progress__experience-container {
     margin-top: 4rem;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -23,7 +25,8 @@
     border-radius: 8px;
     background-color: var(--color-footer);
     height: auto;
-    width: 600px;
+    width: 560px;
+    margin: auto;
 }
 
 .progress__experience-container__card-header {
@@ -76,7 +79,7 @@
 }
 
 .progress__experience-container__card-image img {
-    border-radius: 8px;
+    border-radius: 9px;
     margin-top: 1rem;
     margin-bottom: 1rem;
 
@@ -84,6 +87,7 @@
 
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
 }
 
 .progress__experience-container__card-content-footer p:nth-child(1) {
@@ -107,6 +111,7 @@
 
     .progress__experience-container__card {
         width: 800px;
+        margin-top: 3rem;
     }
     
     .progress__experience-container__card p {
