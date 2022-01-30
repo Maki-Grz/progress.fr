@@ -1,13 +1,13 @@
 import React from 'react'
 import './skill.css'
-import { discord, electron, javascript, git, mongodb, nodejs, react, npm, github, netlify } from './imports'
+import { discord, electron, javascript, git, mongodb, nodejs, react, npm, github, netlify, tailwind } from './imports'
 
 const Skill = () => {
     return (
         <div className='progress__skill section__padding' id='skills'>
             <h1 className='gradient__text'>Compétences</h1>
             <div className='progress__skill-container'>
-                <div className='shadow__global'>
+                <div className='shadow__discord'>
                     <img src={discord} alt="Discord" />
                     <h4 className='gradient__text'>Discord</h4>
                     <p>Je maîrise la librairie DiscordJS<br />Capable de créer des Bots sur l'application pour n'importe quelles situations (modération, fun, niveaux), de m'occuper de la configuration et de l'hébergement.</p>
@@ -46,6 +46,11 @@ const Skill = () => {
                     <img src={npm} alt="Npm" />
                     <h4 className='gradient__text'>NPM</h4>
                     <p>Je maîtrise le gestionnaire de packages officiel de Node.js. Cela me permet de travailler plus efficacement et plus rapidement sans avoir à re-inventer ce qui existe déjà.</p>
+                </div>
+                <div className='shadow__global'>
+                    <img src={tailwind} alt="Tailwind" />
+                    <h4 className='gradient__text'>Tailwind</h4>
+                    <p>Un cadre CSS utilitaire d'abord rempli de classes telles que flex, pt-4, text-center et rotate-90 qui peuvent être composées pour créer n'importe quelle conception, directement dans votre balisage HTML.</p>
                 </div>
                 <div className='shadow__github'>
                     <img src={github} alt="Github" />

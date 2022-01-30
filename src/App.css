@@ -53,6 +53,10 @@ a {
   box-shadow: 0 0 20px 0 rgb(0, 0, 0);
 }
 
+.shadow__discord {
+  box-shadow: 0 0 20px 0 #5865F2;
+}
+
 .shadow__js {
   box-shadow: 0 0 20px 0 rgb(255, 251, 0);
 }
