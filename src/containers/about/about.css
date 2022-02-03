@@ -71,13 +71,20 @@
 }
 
 @media screen and (max-width: 1050px) {
+
+    .line {
+        width: 95%;
+        height: 10px;
+        border-style: inset none none;
+    }
+
     .progress__about-box {
         display: flex;
         flex-direction: column;
     }
 
     .progress__about-box-container-citation p {
-        font-size: 12px;
+        font-size: 20px;
     }
 }
 
