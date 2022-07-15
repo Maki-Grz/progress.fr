@@ -17,7 +17,7 @@ const About = () => {
                     <div className='progress__about-box-container-social'>
                         <a href="https://discord.gg/gaBzAVZ" target="_blank" rel="noreferrer"><PreloadImage src={discord} alt="Discord" /></a>
                         <a href="https://www.instagram.com/maki_grz/" target="_blank" rel="noreferrer"><PreloadImage src={instagram} alt="Instagram" /></a>
-                        <a href="https://www.linkedin.com/in/maximilien-grz-90a72921b/" target="_blank" rel="noreferrer"><PreloadImage src={linkedin} alt="Linkedin" /></a>
+                        <a href="https://www.linkedin.com/in/maximilien-grzeczka-90a72921b/" target="_blank" rel="noreferrer"><PreloadImage src={linkedin} alt="Linkedin" /></a>
                         <a href="https://www.github.com/maki-grz" target="_blank" rel="noreferrer"><PreloadImage src={github} alt="Github" /></a>
                     </div>
                     <div className='line'></div>
