@@ -52,15 +52,15 @@ const Experience = () => {
 
                 <div className='progress__experience-container__card'>
                     <div className='progress__experience-container__card-header'>
-                        <h2 className='gradient__text'>Klee Bot</h2>
+                        <h2 className='gradient__text'>Net ANime</h2>
                         <div className='progress__experience-container__card-header-content'>
                             <img src={logo} alt="React" />
                             <h3>React</h3>
                         </div>
                     </div>
-                    <p>Je suis le créateur et seul développeur de Net Anime</p>
+                    <p>Je suis le créateur et seul développeur de Net Anime. Net Anime c'est aussi une API et un panel pour mon équipe.</p>
                     <div className='progress__experience-container__card-image'>
-                        <Preload src={netanime} alt="netanime" />
+                        <Preload src={netanime} alt="netanime.fr" />
                     </div>
                     <div className='progress__experience-container__card-content-footer'>
                         <p>Créateur & Administrateur</p>
