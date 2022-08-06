@@ -1,12 +1,13 @@
-import React from 'react'
-import './experience.css'
+import React from 'react';
+import './experience.css';
 
-import progress from '../../assets/screen-progress.png'
-import klee from '../../assets/screen-klee.png'
-import logo from '../../assets/react.svg'
-import node from '../../assets/nodejs.svg'
+import progress from '../../assets/screen-progress.png';
+import klee from '../../assets/screen-klee.png';
+import logo from '../../assets/react.svg';
+import node from '../../assets/nodejs.svg';
+import netanime from '../../assets/accueil.png';
 
-import Preload from '../../core/Preload'
+import Preload from '../../core/Preload';
 
 const Experience = () => {
     return (
@@ -46,6 +47,24 @@ const Experience = () => {
                     <div className='progress__experience-container__card-content-footer'>
                         <p>Créateur & Administrateur</p>
                         <p>+63h - 150Mo</p>
+                    </div>
+                </div>
+
+                <div className='progress__experience-container__card'>
+                    <div className='progress__experience-container__card-header'>
+                        <h2 className='gradient__text'>Klee Bot</h2>
+                        <div className='progress__experience-container__card-header-content'>
+                            <img src={logo} alt="React" />
+                            <h3>React</h3>
+                        </div>
+                    </div>
+                    <p>Je suis le créateur et seul développeur de Net Anime</p>
+                    <div className='progress__experience-container__card-image'>
+                        <Preload src={netanime} alt="netanime" />
+                    </div>
+                    <div className='progress__experience-container__card-content-footer'>
+                        <p>Créateur & Administrateur</p>
+                        <p>+200h - +1Go</p>
                     </div>
                 </div>
             </div>
