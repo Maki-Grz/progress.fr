@@ -27,6 +27,7 @@
     height: auto;
     width: 560px;
     margin: auto;
+    margin-top: 1rem;
 }
 
 .progress__experience-container__card-header {
